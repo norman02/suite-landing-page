@@ -1,0 +1,87 @@
+/*------------------------------\
+    Typography
+\------------------------------*/
+
+.text {
+  font-family: "Epilogue", sans-serif;
+  font-size: rem(16);
+  font-weight: 400;
+  letter-spacing: rem(0.09);
+  line-height: rem(28);
+  color: $text-color;
+}
+
+.text--bold {
+  font-weight: 700;
+  color: $bold-text-color;
+}
+
+.text--light {
+  color: $light-text-color;
+}
+
+.text--medium-light {
+  color: $medium-light-text-color;
+}
+
+.text--logo {
+  font-size: rem(32);
+  letter-spacing: rem(-0.44);
+  line-height: rem(32);
+}
+
+.text--XL {
+  font-size: rem(48);
+  letter-spacing: 0px;
+  line-height: rem(56);
+}
+
+.text--L {
+  font-size: rem(38);
+  letter-spacing: rem(-0.53);
+  line-height: rem(44);
+}
+
+.text--M {
+  font-size: rem(18);
+  letter-spacing: rem(-0.18);
+  line-height: rem(32);
+}
+
+.heading--S {
+  font-size: rem(16);
+  letter-spacing: rem(2.5);
+  line-height: rem(16);
+  text-transform: uppercase;
+}
+
+.heading--M {
+  font-size: rem(40);
+  letter-spacing: rem(-0.42);
+  line-height: rem(48);
+}
+
+.heading {
+  font-size: rem(18);
+  letter-spacing: rem(-0.18);
+  line-height: rem(32);
+  text-transform: uppercase;
+}
+
+.text--S {
+  font-size: rem(18);
+  letter-spacing: rem(0.09);
+  line-height: rem(32);
+}
+
+.text--XS {
+  font-size: rem(14);
+  letter-spacing: rem(-0.14);
+  line-height: rem(24);
+}
+
+.small {
+  font-size: rem(15);
+  letter-spacing: rem(0.08);
+  line-height: rem(32);
+}
