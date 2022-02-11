@@ -205,6 +205,15 @@ body {
 }
 
 /*------------------------------\
+    Layouts - Navigation
+\------------------------------*/
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*------------------------------\
     Testing 
 \------------------------------*/
 /*# sourceMappingURL=main.css.map */
