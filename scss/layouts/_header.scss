@@ -1,0 +1,45 @@
+/*------------------------------\
+    Layouts - Header
+\------------------------------*/
+
+.header {
+  
+    margin-top: rem(58.11);
+    
+    h1 {
+      background-image: url("../assets/pattern-curved-line-1.svg");
+      background-position: top 0 right small(37.53);
+      background-size: 151.47px;
+      background-repeat: no-repeat;
+      padding-top: rem(25.21);
+    }
+  
+    p {
+      margin-bottom: rem(44);
+      margin-top: rem(38);
+    }
+  
+    
+  }
+  .hero-image {
+    background-image: url('../assets/image-hero-landscape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    height: small(240);
+    margin-bottom: rem(56);
+    margin-top: rem(55.68);
+    width: small(343);
+  }
+  
+  .stats {
+  
+    text-align: center;
+  
+  
+    li {
+      margin-bottom: rem(42);
+    }
+  }
+  
+  
