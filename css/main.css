@@ -197,6 +197,14 @@ people that prefer not to see them */
 }
 
 /*------------------------------\
+    Layouts - Global 
+\------------------------------*/
+body {
+  padding: 6.4vw 4.26667vw;
+  background-color: #faf7f5;
+}
+
+/*------------------------------\
     Testing 
 \------------------------------*/
 /*# sourceMappingURL=main.css.map */
