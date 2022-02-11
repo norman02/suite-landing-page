@@ -214,6 +214,45 @@ nav {
 }
 
 /*------------------------------\
+    Layouts - Header
+\------------------------------*/
+.header {
+  margin-top: 3.63187rem;
+}
+
+.header h1 {
+  background-image: url("../assets/pattern-curved-line-1.svg");
+  background-position: top 0 right 10.008vw;
+  background-size: 151.47px;
+  background-repeat: no-repeat;
+  padding-top: 1.57563rem;
+}
+
+.header p {
+  margin-bottom: 2.75rem;
+  margin-top: 2.375rem;
+}
+
+.hero-image {
+  background-image: url("../assets/image-hero-landscape.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  height: 64vw;
+  margin-bottom: 3.5rem;
+  margin-top: 3.48rem;
+  width: 91.46667vw;
+}
+
+.stats {
+  text-align: center;
+}
+
+.stats li {
+  margin-bottom: 2.625rem;
+}
+
+/*------------------------------\
     Testing 
 \------------------------------*/
 /*# sourceMappingURL=main.css.map */
