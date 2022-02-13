@@ -1,0 +1,48 @@
+
+/*------------------------------\
+    Layouts - Testimonials 
+\------------------------------*/
+
+.testimonial {
+    margin-top: rem(66);
+
+    &__image {
+        background-image: url("../assets/image-jeremy-small.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: rem(343);
+        background-size: contain;
+        margin: auto;
+        margin-bottom: rem(-180);
+        position: relative;
+        width: rem(302);
+        z-index: 100;
+    }
+
+    .curve-line{
+        background-image: url("../assets/pattern-curved-line-2.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: rem(40);
+        margin: auto;
+        margin-bottom: rem(37);
+        width: rem(49.27);
+    }
+
+    &__text {
+        background-color: $dark-bg-color;
+        border-radius: 15px;
+        padding: rem(240) rem(16) rem(74) rem(16);
+        text-align: center;
+
+        h2 {
+            margin-bottom: rem(48);
+        }
+
+        p:nth-child(3) {
+            margin-bottom: rem(54);
+        }
+
+    }   
+}
