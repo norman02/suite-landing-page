@@ -253,6 +253,52 @@ nav {
 }
 
 /*------------------------------\
+    Layouts - Testimonials 
+\------------------------------*/
+.testimonial {
+  margin-top: 4.125rem;
+}
+
+.testimonial__image {
+  background-image: url("../assets/image-jeremy-small.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 21.4375rem;
+  background-size: contain;
+  margin: auto;
+  margin-bottom: -11.25rem;
+  position: relative;
+  width: 18.875rem;
+  z-index: 100;
+}
+
+.testimonial .curve-line {
+  background-image: url("../assets/pattern-curved-line-2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 2.5rem;
+  margin: auto;
+  margin-bottom: 2.3125rem;
+  width: 3.07938rem;
+}
+
+.testimonial__text {
+  background-color: #17243a;
+  border-radius: 15px;
+  padding: 15rem 1rem 4.625rem 1rem;
+  text-align: center;
+}
+
+.testimonial__text h2 {
+  margin-bottom: 3rem;
+}
+
+.testimonial__text p:nth-child(3) {
+  margin-bottom: 3.375rem;
+}
+
+/*------------------------------\
     Testing 
 \------------------------------*/
 /*# sourceMappingURL=main.css.map */
