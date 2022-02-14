@@ -304,4 +304,22 @@ nav {
 /*------------------------------\
     Testing 
 \------------------------------*/
+.footer {
+  background-color: #f3ede7;
+  margin-top: -0.25rem;
+  padding: 3.75rem 0 5rem 0;
+  text-align: center;
+}
+
+.footer .logo {
+  margin-bottom: 2.0625rem;
+}
+
+.footer .social {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 3.125rem;
+  max-width: 7.125rem;
+}
 /*# sourceMappingURL=main.css.map */
