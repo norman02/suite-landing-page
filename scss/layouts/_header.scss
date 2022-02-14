@@ -3,7 +3,7 @@
 \------------------------------*/
 
 .header {
-  
+    @include margin;
     margin-top: rem(58.11);
     
     h1 {
@@ -27,6 +27,7 @@
     background-repeat: no-repeat;
     display: block;
     height: small(240);
+    margin: auto;
     margin-bottom: rem(56);
     margin-top: rem(55.68);
     width: small(343);

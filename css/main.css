@@ -200,7 +200,6 @@ people that prefer not to see them */
     Layouts - Global 
 \------------------------------*/
 body {
-  padding: 6.4vw 4.26667vw;
   background-color: #faf7f5;
 }
 
@@ -208,15 +207,18 @@ body {
     Layouts - Navigation
 \------------------------------*/
 nav {
+  margin: 0 4.26667vw;
   align-items: center;
   display: flex;
   justify-content: space-between;
+  margin-top: 1.5rem;
 }
 
 /*------------------------------\
     Layouts - Header
 \------------------------------*/
 .header {
+  margin: 0 4.26667vw;
   margin-top: 3.63187rem;
 }
 
@@ -239,6 +241,7 @@ nav {
   background-repeat: no-repeat;
   display: block;
   height: 64vw;
+  margin: auto;
   margin-bottom: 3.5rem;
   margin-top: 3.48rem;
   width: 91.46667vw;
@@ -301,4 +304,22 @@ nav {
 /*------------------------------\
     Testing 
 \------------------------------*/
+.footer {
+  background-color: #f3ede7;
+  margin-top: -0.25rem;
+  padding: 3.75rem 0 5rem 0;
+  text-align: center;
+}
+
+.footer .logo {
+  margin-bottom: 2.0625rem;
+}
+
+.footer .social {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 3.125rem;
+  max-width: 7.125rem;
+}
 /*# sourceMappingURL=main.css.map */
