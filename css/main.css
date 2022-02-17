@@ -351,6 +351,19 @@ nav {
   margin-top: 4.125rem;
 }
 
+@media screen and (min-width: 600px) {
+  .testimonial {
+    margin: 0 4.26667vw;
+    margin-top: 6.375rem !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (min-width: 600px) {
+  .testimonial {
+    margin: 0 5.20833vw;
+  }
+}
+
 .testimonial__image {
   background-image: url("../assets/image-jeremy-small.png");
   background-repeat: no-repeat;
@@ -362,6 +375,14 @@ nav {
   position: relative;
   width: 18.875rem;
   z-index: 100;
+}
+
+@media screen and (min-width: 600px) {
+  .testimonial__image {
+    background-image: url("../assets/image-jeremy-large.png");
+    height: 52.34375vw;
+    width: 32.8125vw;
+  }
 }
 
 .testimonial .curve-line {
@@ -380,6 +401,12 @@ nav {
   border-radius: 15px;
   padding: 15rem 1rem 4.625rem 1rem;
   text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .testimonial__text {
+    padding: 31.25vw 7.55208vw 9.63542vw 7.55208vw;
+  }
 }
 
 .testimonial__text h2 {
