@@ -6,3 +6,7 @@
 @function small ($pixel) {
   @return ($pixel/375 * 100vw);
 }
+
+@function medium ($pixel) {
+  @return ($pixel/768 * 100vw);
+}

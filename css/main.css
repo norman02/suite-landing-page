@@ -214,12 +214,30 @@ nav {
   margin-top: 1.5rem;
 }
 
+@media screen and (min-width: 600px) {
+  nav {
+    margin: 0 5.20833vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  nav {
+    margin-top: 2.5rem;
+  }
+}
+
 /*------------------------------\
     Layouts - Header
 \------------------------------*/
 .header {
   margin: 0 4.26667vw;
   margin-top: 3.63187rem;
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    margin: 0 5.20833vw;
+  }
 }
 
 .header h1 {
