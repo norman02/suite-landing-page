@@ -25,11 +25,23 @@ header {
       background-size: 151.47px;
       background-repeat: no-repeat;
       padding-top: rem(25.21);
+
+      @include media-md {
+        padding-top: rem(88);
+        background-position: top medium(46) right;
+        background-size: 232px;
+      }
     }
   
     p {
       margin-bottom: rem(44);
       margin-top: rem(38);
+
+      @include media-md {
+        margin-bottom: rem(52);
+        margin-top: rem(48);
+        max-width: medium(350);
+      }
     }
   
     
@@ -62,11 +74,24 @@ header {
 
     @include media-md {
       column-span: all;
+      margin-top: rem(88);
+      width: 100vw;
+    }
+
+    ul {
+      @include media-md {
+        display: flex;
+        justify-content: space-evenly;
+      }
     }
   
   
     li {
       margin-bottom: rem(42);
+
+      @include media-md {
+        margin: 0;
+      }
     }
   }
   

@@ -271,9 +271,25 @@ nav {
   padding-top: 1.57563rem;
 }
 
+@media screen and (min-width: 600px) {
+  .header h1 {
+    padding-top: 5.5rem;
+    background-position: top 5.98958vw right;
+    background-size: 232px;
+  }
+}
+
 .header p {
   margin-bottom: 2.75rem;
   margin-top: 2.375rem;
+}
+
+@media screen and (min-width: 600px) {
+  .header p {
+    margin-bottom: 3.25rem;
+    margin-top: 3rem;
+    max-width: 45.57292vw;
+  }
 }
 
 .hero-image {
@@ -306,11 +322,26 @@ nav {
 @media screen and (min-width: 600px) {
   .stats {
     column-span: all;
+    margin-top: 5.5rem;
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .stats ul {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
 .stats li {
   margin-bottom: 2.625rem;
+}
+
+@media screen and (min-width: 600px) {
+  .stats li {
+    margin: 0;
+  }
 }
 
 /*------------------------------\
