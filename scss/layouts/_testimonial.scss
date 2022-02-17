@@ -6,6 +6,11 @@
 .testimonial {
     margin-top: rem(66);
 
+    @include media-md {
+        @include margin;
+        margin-top: rem(102) !important; //FIXME 
+    }
+
     &__image {
         background-image: url("../assets/image-jeremy-small.png");
         background-repeat: no-repeat;
@@ -17,6 +22,12 @@
         position: relative;
         width: rem(302);
         z-index: 100;
+
+        @include media-md {
+            background-image: url("../assets/image-jeremy-large.png");
+            height: medium(402);
+            width: medium(252);
+        }
     }
 
     .curve-line{
@@ -35,6 +46,10 @@
         border-radius: 15px;
         padding: rem(240) rem(16) rem(74) rem(16);
         text-align: center;
+
+        @include media-md {
+            padding: medium(240) medium(58) medium(74) medium(58);
+        }
 
         h2 {
             margin-bottom: rem(48);

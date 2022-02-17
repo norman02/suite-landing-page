@@ -8,4 +8,8 @@ nav {
     display: flex;
     justify-content: space-between;
     margin-top: rem(24);
+
+    @include media-md {
+        margin-top: rem(40);
+    }
 }
