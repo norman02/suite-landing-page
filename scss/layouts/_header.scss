@@ -2,9 +2,22 @@
     Layouts - Header
 \------------------------------*/
 
+header {
+  @include media-md {
+    margin-top: rem(80);
+    display: grid;
+    grid-template-columns: medium(573) medium(281);
+  }
+}
+
 .header {
     @include margin;
     margin-top: rem(58.11);
+
+    @include media-md {
+      position: relative;
+      z-index: 100;
+    }
     
     h1 {
       background-image: url("../assets/pattern-curved-line-1.svg");
@@ -31,11 +44,25 @@
     margin-bottom: rem(56);
     margin-top: rem(55.68);
     width: small(343);
+
+    @include media-md {
+      background-image: url('../assets/image-hero-portrait.png');
+      background-size: contain;
+      height: medium(482);
+      width: medium(281);
+      margin: 0;
+      margin-left: medium(-120);
+    }
+
   }
   
   .stats {
   
     text-align: center;
+
+    @include media-md {
+      column-span: all;
+    }
   
   
     li {

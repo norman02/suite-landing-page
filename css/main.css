@@ -128,6 +128,14 @@ people that prefer not to see them */
   line-height: 2.75rem;
 }
 
+@media screen and (min-width: 600px) {
+  .text--L {
+    font-size: 3.5rem;
+    letter-spacing: -0.04875rem;
+    line-height: 4rem;
+  }
+}
+
 .text--M {
   font-size: 1.125rem;
   letter-spacing: -0.01125rem;
@@ -229,6 +237,14 @@ nav {
 /*------------------------------\
     Layouts - Header
 \------------------------------*/
+@media screen and (min-width: 600px) {
+  header {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 74.60938vw 36.58854vw;
+  }
+}
+
 .header {
   margin: 0 4.26667vw;
   margin-top: 3.63187rem;
@@ -237,6 +253,13 @@ nav {
 @media screen and (min-width: 600px) {
   .header {
     margin: 0 5.20833vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    position: relative;
+    z-index: 100;
   }
 }
 
@@ -265,8 +288,25 @@ nav {
   width: 91.46667vw;
 }
 
+@media screen and (min-width: 600px) {
+  .hero-image {
+    background-image: url("../assets/image-hero-portrait.png");
+    background-size: contain;
+    height: 62.76042vw;
+    width: 36.58854vw;
+    margin: 0;
+    margin-left: -15.625vw;
+  }
+}
+
 .stats {
   text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .stats {
+    column-span: all;
+  }
 }
 
 .stats li {

@@ -40,6 +40,12 @@
   font-size: rem(38);
   letter-spacing: rem(-0.53);
   line-height: rem(44);
+
+  @include media-md {
+    font-size: rem(56);
+    letter-spacing: rem(-0.78);
+    line-height: rem(64);
+  }
 }
 
 .text--M {
