@@ -5,10 +5,12 @@
 }
 
 @mixin margin {
-  margin: 0 small(16);
+  margin-left: small(16);
+  margin-right: small(16);
 
   @include media-md {
-    margin: 0 medium(40);
+    margin-left: medium(40);
+    margin-right: medium(40);
   } 
 }
 

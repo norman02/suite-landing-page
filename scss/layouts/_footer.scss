@@ -3,20 +3,45 @@
 \------------------------------*/
 
 .footer {
-    background-color: $footer-bg-color;
-    margin-top: rem(-4);
-    padding: rem(60) 0 rem(80) 0;
-    text-align: center;
+  background-color: $footer-bg-color;
+  margin-top: rem(-4);
+  padding: rem(60) 0 rem(80) 0;
+  text-align: center;
+  z-index: -100;
+  position: relative;
 
-    .logo {
-        margin-bottom: rem(33);
+  @include media-md {
+    margin-top: rem(-464);
+    padding: rem(542) 0 rem(78) 0;
+  }
+
+  .margin {
+    @include margin;
+    @include media-md {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
-    
-    .social {
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-        margin-top: rem(50);
-        max-width: rem(114);
+  }
+
+  .logo {
+    margin-bottom: rem(33);
+
+    @include media-md {
+      margin: 0;
     }
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: rem(50);
+    max-width: rem(114);
+
+    @include media-md {
+      margin: 0;
+      width: rem(116);
+    }
+  }
 }

@@ -215,7 +215,8 @@ body {
     Layouts - Navigation
 \------------------------------*/
 nav {
-  margin: 0 4.26667vw;
+  margin-left: 4.26667vw;
+  margin-right: 4.26667vw;
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -224,7 +225,8 @@ nav {
 
 @media screen and (min-width: 600px) {
   nav {
-    margin: 0 5.20833vw;
+    margin-left: 5.20833vw;
+    margin-right: 5.20833vw;
   }
 }
 
@@ -246,13 +248,15 @@ nav {
 }
 
 .header {
-  margin: 0 4.26667vw;
+  margin-left: 4.26667vw;
+  margin-right: 4.26667vw;
   margin-top: 3.63187rem;
 }
 
 @media screen and (min-width: 600px) {
   .header {
-    margin: 0 5.20833vw;
+    margin-left: 5.20833vw;
+    margin-right: 5.20833vw;
   }
 }
 
@@ -353,14 +357,16 @@ nav {
 
 @media screen and (min-width: 600px) {
   .testimonial {
-    margin: 0 4.26667vw;
+    margin-left: 4.26667vw;
+    margin-right: 4.26667vw;
     margin-top: 6.375rem !important;
   }
 }
 
 @media screen and (min-width: 600px) and (min-width: 600px) {
   .testimonial {
-    margin: 0 5.20833vw;
+    margin-left: 5.20833vw;
+    margin-right: 5.20833vw;
   }
 }
 
@@ -425,10 +431,45 @@ nav {
   margin-top: -0.25rem;
   padding: 3.75rem 0 5rem 0;
   text-align: center;
+  z-index: -100;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) {
+  .footer {
+    margin-top: -29rem;
+    padding: 33.875rem 0 4.875rem 0;
+  }
+}
+
+.footer .margin {
+  margin-left: 4.26667vw;
+  margin-right: 4.26667vw;
+}
+
+@media screen and (min-width: 600px) {
+  .footer .margin {
+    margin-left: 5.20833vw;
+    margin-right: 5.20833vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .footer .margin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .footer .logo {
   margin-bottom: 2.0625rem;
+}
+
+@media screen and (min-width: 600px) {
+  .footer .logo {
+    margin: 0;
+  }
 }
 
 .footer .social {
@@ -437,5 +478,12 @@ nav {
   margin: auto;
   margin-top: 3.125rem;
   max-width: 7.125rem;
+}
+
+@media screen and (min-width: 600px) {
+  .footer .social {
+    margin: 0;
+    width: 7.25rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
